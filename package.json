@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Venu K",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "powershell -NoProfile -Command \"Get-ChildItem -Path src -Filter *.js -Recurse | ForEach-Object { node --check $_.FullName }\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.104.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "supabase": "^2.95.3"
+  }
+}

@@ -1,0 +1,1 @@
+-- Add development seed data here when you want sample stores, products, or users.
